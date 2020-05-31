@@ -1,0 +1,56 @@
+.cabeza {
+  position: sticky;
+  background: red;
+}
+
+.relativa {
+  position: relative;
+}
+
+.relativa.adorno {
+}
+
+.adornoH {
+  top: -62px;
+  position: absolute;
+  background-image: url("../../../assets/img/bg-ribbon.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100%;
+}
+
+@media (min-width: 300px) {
+  .platillo {
+    height: 194px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .platillo {
+    height: 505px;
+  }
+}
+
+.shadow-black-text {
+  text-shadow: 0px 1px 1px black;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.platillo {
+  background-image: url("../../../assets/img/adobes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titular {
+  color: white;
+  font-size: 39px;
+  text-shadow: 2px 2px 4px rgb(20,41,114);
+}
+
